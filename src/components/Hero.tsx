@@ -23,11 +23,23 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 z-10 text-center animate-fade-in-up">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Hi, I'm{" "}
-            <span className="gradient-text">
+          {/* Profile Photo */}
+          <div className="mb-8">
+            <div className="relative inline-block">
+              <img 
+                src="/lovable-uploads/3a01bb76-c911-4ea5-b347-6d04b57523e6.png"
+                alt="Lawrence Muia Matheka - Profile Photo"
+                className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-primary/30 shadow-2xl glow-effect mx-auto"
+              />
+              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 animate-glow-pulse"></div>
+            </div>
+            <h2 className="text-2xl md:text-3xl font-bold mt-6 mb-2 gradient-text">
               Lawrence Muia Matheka
-            </span>
+            </h2>
+          </div>
+
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+            Mobile & Web Developer
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
