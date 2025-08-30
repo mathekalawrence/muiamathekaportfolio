@@ -21,10 +21,10 @@ const Hero = () => {
         <div className="absolute bottom-20 right-20 w-96 h-96 bg-accent/20 rounded-full blur-3xl animate-float" style={{ animationDelay: '1s' }}></div>
       </div>
 
-      <div className="container mx-auto px-4 z-10 text-center animate-fade-in-up">
+      <div className="container mx-auto px-4 z-10 text-center animate-fade-in-up pt-20">
         <div className="max-w-4xl mx-auto">
           {/* Profile Photo */}
-          <div className="mb-8">
+          <div className="mb-8 mt-8">
             <div className="relative inline-block">
               <img 
                 src="/lovable-uploads/3a01bb76-c911-4ea5-b347-6d04b57523e6.png"
