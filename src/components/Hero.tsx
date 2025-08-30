@@ -38,12 +38,12 @@ const Hero = () => {
             </h2>
           </div>
 
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+          <h1 className="text-2xl md:text-3xl font-bold mb-6 leading-tight text-muted-foreground">
             Mobile & Web Developer
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Mobile & Web Developer crafting exceptional digital experiences with modern technologies
+            Crafting exceptional digital experiences with modern technologies
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
