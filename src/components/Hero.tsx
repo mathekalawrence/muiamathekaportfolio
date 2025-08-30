@@ -27,9 +27,9 @@ const Hero = () => {
           <div className="mb-8 mt-8">
             <div className="relative inline-block">
               <img 
-                src="/lovable-uploads/3a01bb76-c911-4ea5-b347-6d04b57523e6.png"
+                src="/lovable-uploads/6d0765eb-c83c-4301-8cf8-1a88f638a42c.png"
                 alt="Lawrence Muia Matheka - Profile Photo"
-                className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-primary/30 shadow-2xl glow-effect mx-auto"
+                className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-primary/30 shadow-2xl glow-effect mx-auto"
               />
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 animate-glow-pulse"></div>
             </div>
