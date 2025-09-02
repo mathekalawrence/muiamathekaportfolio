@@ -38,8 +38,8 @@ const Hero = () => {
             </h2>
           </div>
 
-          <h1 className="text-2xl md:text-3xl font-bold mb-6 leading-tight text-muted-foreground">
-            Mobile & Web Developer
+          <h1 className="text-lg md:text-xl font-bold mb-6 leading-tight" style={{ color: 'hsl(220, 50%, 20%)' }}>
+            Mobile | Web Developer | Social Media Marketing | IT Specialist | Business Strategist
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">

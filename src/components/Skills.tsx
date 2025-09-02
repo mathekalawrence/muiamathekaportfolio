@@ -37,6 +37,26 @@ const Skills = () => {
         { name: "AWS", level: 75 },
         { name: "Figma", level: 88 }
       ]
+    },
+    {
+      title: "Social Media Marketing",
+      skills: [
+        { name: "Facebook Ads", level: 88 },
+        { name: "Instagram Marketing", level: 90 },
+        { name: "Google Ads", level: 85 },
+        { name: "Content Strategy", level: 87 },
+        { name: "Analytics", level: 83 }
+      ]
+    },
+    {
+      title: "IT & Business",
+      skills: [
+        { name: "System Administration", level: 80 },
+        { name: "Network Management", level: 78 },
+        { name: "Business Analysis", level: 85 },
+        { name: "Project Management", level: 88 },
+        { name: "Strategic Planning", level: 82 }
+      ]
     }
   ];
 
@@ -52,7 +72,7 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skillCategories.map((category, categoryIndex) => (
             <div 
               key={categoryIndex}
