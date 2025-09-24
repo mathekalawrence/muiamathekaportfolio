@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, MessageCircle } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
@@ -67,7 +67,7 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex justify-center gap-6 mb-12">
             <a 
-              href="https://github.com" 
+              href="https://github.com/mathekalawrence" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 glass-card rounded-full hover:glow-effect transition-all duration-300 hover:scale-110"
@@ -75,7 +75,7 @@ const Hero = () => {
               <Github className="w-6 h-6" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/lawrence-matheka-ba3a11260/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 glass-card rounded-full hover:glow-effect transition-all duration-300 hover:scale-110"
@@ -87,6 +87,14 @@ const Hero = () => {
               className="p-3 glass-card rounded-full hover:glow-effect transition-all duration-300 hover:scale-110"
             >
               <Mail className="w-6 h-6" />
+            </a>
+            <a 
+              href="https://wa.me/254710689178"
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-3 glass-card rounded-full hover:glow-effect transition-all duration-300 hover:scale-110"
+            >
+              <MessageCircle className="w-6 h-6" />
             </a>
           </div>
 

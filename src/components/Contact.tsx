@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Send, MessageCircle } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 
@@ -15,11 +15,22 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Simulate form submission
+    
+    // Create mailto link with form data
+    const subject = encodeURIComponent(`New message from ${formData.name}`);
+    const body = encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
+    );
+    const mailtoLink = `mailto:mathekahlawrence@gmail.com?subject=${subject}&body=${body}`;
+    
+    // Open email client
+    window.location.href = mailtoLink;
+    
     toast({
-      title: "Message Sent!",
-      description: "Thank you for reaching out. I'll get back to you soon.",
+      title: "Email Client Opened!",
+      description: "Your default email client should open with the pre-filled message.",
     });
+    
     setFormData({ name: '', email: '', message: '' });
   };
 
@@ -42,6 +53,12 @@ const Contact = () => {
       title: "Phone",
       value: "+254 710 689 178",
       link: "tel:+254710689178"
+    },
+    {
+      icon: <MessageCircle className="w-6 h-6" />,
+      title: "WhatsApp",
+      value: "+254 710 689 178",
+      link: "https://wa.me/254710689178"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
