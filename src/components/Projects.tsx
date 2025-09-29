@@ -41,6 +41,9 @@ const Projects = () => {
     <section id="projects" className="section-padding bg-gradient-to-br from-background via-secondary/10 to-background">
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-16 animate-fade-in-up">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            My <span className="gradient-text">Portfolio</span>
+          </h1>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Featured <span className="gradient-text">Projects</span>
           </h2>
