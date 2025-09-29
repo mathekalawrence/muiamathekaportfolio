@@ -8,6 +8,7 @@ const Navigation = () => {
 
   const menuItems = [
     { label: "Home", href: "#home" },
+    { label: "Bio", href: "#bio" },
     { label: "About", href: "#about" },
     { label: "Skills", href: "#skills" },
     { label: "Projects", href: "#projects" },
